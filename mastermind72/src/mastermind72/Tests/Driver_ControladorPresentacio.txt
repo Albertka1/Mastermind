@@ -1,0 +1,34 @@
+DESCRIPCIÓ DRIVER_CONTROLADORPRESENT:
+-------------------------------------
+1. OBJECTE DE LA PROVA:
+	- Es proven les transicions dels següents casos d'ús: Nova partida, escollir dificultat,
+	introduir rècord, carregar i guardar partida, abandonar partida, consultar rècords, demanar ajuda.
+	
+2. ALTRES ELEMENTS DE LA PROVA:
+	- Només es suposa que la crida per a creat i guardar una partida funcionen correctament.
+
+3. DRIVERS:
+	- S'ha construit el driver Driver_ControladorPresent per a la prova. El seu objectiu és provar i confirmar
+	que totes les transicions de l'aplicació s'executen correctament, tant per anar cap a una vista com 
+	per tornar de la vista en qüestió.
+
+5. FITXERS DE DADES NECESSARIS:
+	- Per tal de poder provar aquest test es necessiten els fitxers de totes les vistes (Vista___.java) i els
+	dels controladors de Presentació, Partida, Persistència i PersistènciaPartida.
+    
+    
+6. VALORS ESTUDIATS:
+	- L'aplicació es prova amb totes dues dificultats a l'hora d'escollir la solució pel mode CM, amb totes dues
+	dificultats i el mode CB per a la transició de nova partida a partida i amb dificultat fàcil i el mode CB
+	per a provar la transició dels menús de sortida de partida cap al menú principal.
+	- S'utilitza per tant un anàlisi de caixa negra, ja que simplement estem provant el que hauria de passar
+	si tot funcionés correctament.
+
+7. EFECTES ESTUDIATS:
+	- Per a cada possible transició de vista a vista es produeix un canvi a la pantalla segons un temps marcat al
+	driver. També s'indica a la	consola de quina vista a quina s'està transitant.
+	
+8. OPERATIVA:
+	- Simplement posar en marxa l'executable. El mateix driver té un temps marcat per anar fent els canvis de 
+	vista. Al final es tanca l'aplicació de forma automàtica.
+	

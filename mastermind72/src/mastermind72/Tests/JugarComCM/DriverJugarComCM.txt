@@ -1,0 +1,22 @@
+DESCRIPCIO DRIVER_JUGARCOMCM:
+-------------------------------------
+1. OBJECTE DE LA PROVA:
+	- Es prova el cas d'us de jugar com a CodeMaker.
+	
+2. ALTRES ELEMENTS DE LA PROVA:
+	- Suposem que les classes Codi, CodiFacil, CodiDificil, Pair, Jugada i Partida estan provats i validats.
+	
+3. DRIVERS:
+	- DriverJugarComCM permet introduir una solucio i mostrar les jugades que fa l'algorisme per resoldre.
+	
+5. FITXERS DE DADES NECESSARIS:
+	- S'han inclos les seguents classes: Codi, CodiFacil, CodiDificil, Pair, Jugada i Partida.
+	
+6. VALORS ESTUDIATS:
+	- Estudiem els resultats del metode jugarPartidaCM() on es retorna una llista de codis y boles Blanques i Negres.
+
+7. EFECTES ESTUDIATS:
+	- Per cada jugada introduida es mostra el resultat.
+	
+8. OPERATIVA:
+	- S'ha de executar el programa i introduir una solucio.

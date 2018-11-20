@@ -1,0 +1,22 @@
+DESCRIPCIO DRIVER_INTRODUIRJUGADA:
+-------------------------------------
+1. OBJECTE DE LA PROVA:
+	- Es prova el cas d'us de crear una partida i introduir la jugada.
+	
+2. ALTRES ELEMENTS DE LA PROVA:
+	- Suposem que les classes Codi, CodiFacil, CodiDificil, Pair, Jugada i Partida estan provats i validats.
+	
+3. DRIVERS:
+	- DriverIntroduirJugada permet introduir jugades per resoldre un codi en dificulta facil i dificil.
+	
+5. FITXERS DE DADES NECESSARIS:
+	- S'han inclos les seguents classes: Codi, CodiFacil, CodiDificil, Pair, Jugada i Partida.
+	
+6. VALORS ESTUDIATS:
+	- Estudiem els resultats de cada jugada executada. Es un Pair de enters on es retornan les boles Blanques i Negres.
+
+7. EFECTES ESTUDIATS:
+	- Per cada jugada introduida es mostra el resultat.
+	
+8. OPERATIVA:
+	- A la primera partida s'ha d'introduir una solucio de 4 numeros i varies jugades fins resoldre el codi. La segona partida son de 6 numeros.

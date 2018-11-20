@@ -1,0 +1,22 @@
+DESCRIPCIO DRIVER_JUGADA:
+-------------------------------------
+1. OBJECTE DE LA PROVA:
+	- Es prova que es poden crear jugades i que realment es resolen les jugades.
+	
+2. ALTRES ELEMENTS DE LA PROVA:
+	- Suposem que les classes Codi, CodiFacil, CodiDificil i Pair estan provats i validats.
+	
+3. DRIVERS:
+	- DriverJugada crea permet introduir jugades per resoldre un codi en mode facil i dificil.
+	
+5. FITXERS DE DADES NECESSARIS:
+	- S'han inclos les seguents classes: Codi, CodiFacil, CodiDificil i Pair.
+	
+6. VALORS ESTUDIATS:
+	- Estudiem els resultats de cada jugada executada. Es un Pair de enters on es retornan les boles Blanques i Negres.
+
+7. EFECTES ESTUDIATS:
+	- Per cada jugada introduida es mostra el resultat.
+	
+8. OPERATIVA:
+	- A la primera partida s'ha d'introduir una solucio de 4 numeros i varies jugades fins resoldre el codi. La segona partida son de 6 numeros.

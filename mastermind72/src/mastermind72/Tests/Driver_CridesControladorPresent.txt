@@ -1,0 +1,35 @@
+DESCRIPCIÓ DRIVER_CRIDESCONTROLADORPRESENT:
+-------------------------------------
+1. OBJECTE DE LA PROVA:
+	- Es proven les crides des del controlador de presentació dels següents casos d'ús: Nova partida,
+	introduir jugada, introduir rècord, ensenyar boles, carregar partida, abandonar partida, 
+	resoldre partida CM, consultar rècords, demanar ajuda, guardar i carregar partida.
+	
+2. ALTRES ELEMENTS DE LA PROVA:
+	- Es suposa que totes les funcionalitats de l'aplicació descrites anteriorment funcionen, ja que 
+	el control surt des de presentació i ha de tornar a ella amb els resultats correctes.
+
+3. DRIVERS:
+	- S'ha construit el driver Driver_CridaControladorPresent per a la prova. El seu objectiu és provar i confirmar
+	que totes les crides que realitza el controlador de Presentació s'executen correctament.
+
+5. FITXERS DE DADES NECESSARIS:
+	- Per tal de poder provar aquest test es necessiten tots els fitxers de l'aplicació, tant vistes com fitxers de
+	domini i persistència.
+
+6. VALORS ESTUDIATS:
+	- L'aplicació es prova amb dificultat fàcil i ambdós modes per a comprovar si es crea correctament una partida, amb
+	la llista de valors 2,4,6,8 per comprovar si s'introdueix una jugada correctament i es retorna el resultat,
+	amb el nom "Joan" i la dificultat difícil per a veure si s'introdueix bé el rècord, amb la dificultat difícil per
+	a comprovar els rècords d'aquesta dificultat i amb la llista de valors 1,3,5,6 com a solucio per a comprovar que 
+	es resol una partida fàcil CM. 
+	- En aquest cas s'està utilitzant un anàlisi de caixa grisa ja que coneixem el codi del controlador però no com
+	està implementat la resta d'algorismes, i podem tenir una certesa de si els valors estan bé o malament.
+	
+
+7. EFECTES ESTUDIATS:
+	- Per a cada comrpovació es mostra a la consola què s'està comprovant i amb què. Es mostra el resultat obtingut.
+	
+8. OPERATIVA:
+	- Simplement posar en marxa l'executable. El mateix driver anirà produint tots els test de forma automàtica.
+	
